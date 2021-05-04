@@ -11,13 +11,14 @@ int main(){
 
     //check boundary condition
    if(size>50){
-       printf("Invalid size: ");
+       printf("Invalid size\n");
    }else{
        //get array elements from user
        printf("Enter elements of array:");
        for(i=0;i<size;i++){
            scanf("%d",&arr[i]);
        }
+
 
         //print array elements
        printf("\nArray elements are: ");
@@ -64,3 +65,15 @@ int main(){
     
     return 0; 
 }
+
+/*
+2nd positon 4
+
+actual array size : 5 (last index 4(size-1))
+pos index = pos-1
+
+index:    0   1   2   3   4    5
+elements: 2   4   6   8  10   12
+
+
+*/
